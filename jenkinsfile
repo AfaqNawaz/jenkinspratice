@@ -1,0 +1,8 @@
+pipeline{
+   agent any 
+   stages{
+     stage('build'){
+          echo 'the new build ${env.BUILD_NAME}'
+     }
+   }
+}
